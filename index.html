@@ -259,7 +259,7 @@ footer p{max-width:78ch}
       <div><dt>Instrument</dt><dd>Exchange offer / Schedule TO&#8209;I / Form&nbsp;S&#8209;4</dd></div>
       <div><dt>MMED shares offered</dt><dd>225,361,295</dd></div>
       <div><dt>Expiration</dt><dd>Oct 9, 2026, 12:00 midnight ET</dd></div>
-      <div><dt>Updated</dt><dd>September 19, 2026</dd></div>
+      <div><dt>Updated</dt><dd>October 2, 2026</dd></div>
     </dl>
   </div>
   <div class="live" aria-live="polite">
@@ -405,6 +405,34 @@ footer p{max-width:78ch}
         <p class="small">Defaults reproduce the prospectus base case. The S-4 states that proration allocations are rounded to the nearest whole MDT share. It does not specify a rounding convention for the final exchange ratio or for the maximum base-offer MDT share count, which the S-4 defines as 225,361,295 divided by the final exchange ratio. This calculator uses the unrounded ratio and displays it to four decimal places, as the prospectus does. The prospectus table was calculated from unrounded averages, so entering its rounded prices can differ by 0.0001 (for example, MDT and MMED both up 10% gives 4.3598 here and 4.3599 in the filing). For illustration only; the final exchange ratio is determined by Medtronic and actual results depend on proration and the terms of the prospectus.</p>
       </div>
     </div>
+
+    <div class="note" style="margin-top:46px">
+      <div class="nt">Status as of October 1, 2026: upper limit in effect</div>
+      <p>The indicative exchange ratio has been pinned at the 4.5939 upper limit since September 22, the seventh trading day of the offer, because MiniMed has fallen further than Medtronic. On October 1 the indicative calculated per-share values were $86.6623 for MDT and $19.6766 for MMED. Without the upper limit, the 7% discount formula would have produced 4.7358.<sup><a href="#src-dfk">6</a></sup> Capped at 4.5939, the implied value is approximately $104.30 of MMED per $100 of MDT, rather than $107.53 (author calculation). The ratio that counts is still the one set over the Averaging Period of October 5, 6 and 7.</p>
+    </div>
+
+    <h3>Indicative exchange ratio history</h3>
+    <p style="font-size:15.5px;color:var(--muted)">Published by the information agent each day by 4:30 p.m. New York City time, calculated as though that day were the last day of the Averaging Period. The last column is the author's calculation from the published values.<sup><a href="#src-dfk">6</a></sup></p>
+    <div class="tbl" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Date</th><th class="n">MDT per-share value</th><th class="n">MMED per-share value</th><th class="n">Indicative ratio</th><th>Upper limit</th><th class="n">Implied per $100</th></tr></thead>
+        <tbody>
+              <tr><td>September 16</td><td class="n">$93.4072</td><td class="n">$22.1688</td><td class="n">4.5306</td><td>No</td><td class="n">$107.53</td></tr>
+              <tr><td>September 17</td><td class="n">$93.1305</td><td class="n">$22.2140</td><td class="n">4.5080</td><td>No</td><td class="n">$107.53</td></tr>
+              <tr><td>September 18</td><td class="n">$92.5981</td><td class="n">$22.1339</td><td class="n">4.4984</td><td>No</td><td class="n">$107.53</td></tr>
+              <tr><td>September 21</td><td class="n">$92.2539</td><td class="n">$21.7029</td><td class="n">4.5707</td><td>No</td><td class="n">$107.53</td></tr>
+              <tr class="cap"><td>September 22</td><td class="n">$91.6363</td><td class="n">$21.4043</td><td class="n">4.5939</td><td>Yes</td><td class="n">$107.30</td></tr>
+              <tr class="cap"><td>September 23</td><td class="n">$90.7360</td><td class="n">$21.0014</td><td class="n">4.5939</td><td>Yes</td><td class="n">$106.33</td></tr>
+              <tr class="cap"><td>September 24</td><td class="n">$89.7108</td><td class="n">$20.7397</td><td class="n">4.5939</td><td>Yes</td><td class="n">$106.20</td></tr>
+              <tr class="cap"><td>September 25</td><td class="n">$88.8846</td><td class="n">$20.3678</td><td class="n">4.5939</td><td>Yes</td><td class="n">$105.27</td></tr>
+              <tr class="cap"><td>September 28</td><td class="n">$88.6994</td><td class="n">$20.2784</td><td class="n">4.5939</td><td>Yes</td><td class="n">$105.03</td></tr>
+              <tr class="cap"><td>September 29</td><td class="n">$88.1987</td><td class="n">$20.1064</td><td class="n">4.5939</td><td>Yes</td><td class="n">$104.73</td></tr>
+              <tr class="cap"><td>September 30</td><td class="n">$87.5313</td><td class="n">$19.9635</td><td class="n">4.5939</td><td>Yes</td><td class="n">$104.77</td></tr>
+              <tr class="cap"><td>October 1</td><td class="n">$86.6623</td><td class="n">$19.6766</td><td class="n">4.5939</td><td>Yes</td><td class="n">$104.30</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">Blue rows: upper limit in effect. No indicative ratio is published for the first two trading days of the offer or for the third day of the Averaging Period.<sup><a href="#src-dfk">6</a></sup></p>
   </div>
 </section>
 
@@ -432,6 +460,7 @@ footer p{max-width:78ch}
         <h3>The index fund problem</h3>
         <p class="small" style="margin:0 0 14px">Author's analysis of general market practice. The offer documents do not discuss index funds.</p>
         <p>In a pro rata spin-off, eligible holders of record receive the new shares whether they actively selected them or not. That can include index funds, ETFs, and mutual funds that own Medtronic because of its index membership, sector, size, or dividend. A fund tracking an index that includes Medtronic may have little or no long-term benchmark reason to retain MiniMed if MiniMed is not included in the same index.</p>
+        <p>Index providers also adjust after the fact. FTSE Russell has said that following expiration it will decrease Medtronic's available shares and increase MiniMed's based on the results of the offer, with implementation contingent on the change to either company exceeding 3%.<sup><a href="#src-ftse">7</a></sup></p>
         <p>Holders in that position commonly sell the new shares soon after distribution. That selling, known as flowback, lands on the new company just as it is trying to establish its own shareholder base.</p>
         <p>A split-off reverses the default. Passive funds that need to stay aligned with a benchmark generally have little reason to tender, so the exchange directs MiniMed shares toward holders who elect to tender and whose MDT shares are accepted. Medtronic states that the Divestment will create a MiniMed stockholder base aligned with MiniMed's business and financial profile. MiniMed does not expect to pay dividends for the foreseeable future, so income-focused Medtronic holders can stay where they are.<sup><a href="#src-s4">2</a></sup></p>
       </div>
@@ -470,16 +499,16 @@ footer p{max-width:78ch}
   <div class="wrap">
     <div class="label">The Corporate Actions Perspective</div>
     <h2>What custody and operations teams should track</h2>
-    <p class="lede">Deadlines below are taken from the prospectus and Medtronic's September 17 correction. The prospectus directs beneficial owners to confirm timing with the institution that holds their shares, which may set earlier deadlines.</p>
+    <p class="lede">Deadlines below are taken from the prospectus and Medtronic's September 17 correction. The prospectus directs beneficial owners to confirm timing with the institution that holds their shares, which may set earlier deadlines. One large broker, for example, set October 5 as its response deadline for clients, four days before the offer itself expires.<sup><a href="#src-fid">10</a></sup></p>
     <div class="ops">
       <article><h4>Expiration and withdrawal</h4><p>Tenders and withdrawals are permitted until 12:00 midnight New York City time at the end of October 9. DTC is expected to remain open until 5:00 p.m.; institutions may be able to process withdrawals through DTC until that time, although the prospectus gives no assurance that they will be able to do so. After DTC closes, withdrawals of shares tendered through DTC require a written or email notice, in DTC's form, sent by the tendering institution directly to the exchange agent.<sup><a href="#src-s4">2</a></sup></p></article>
-      <article><h4>Guaranteed delivery correction</h4><p>The notice of guaranteed delivery must reach the exchange agent by 12:00 midnight at the end of the expiration date. Medtronic's September 17 8-K corrected a typographical error: the shares, letter of transmittal or agent's message, and other documents must then arrive by 5:00 p.m. New York City time on the second NYSE trading day after the notice is executed, not by midnight as originally printed. For a notice executed on October 9, that deadline is 5:00 p.m. on Tuesday, October 13, because Monday, October 12 is an NYSE trading day.<sup><a href="#src-8k">6</a>,<a href="#src-nyse">7</a></sup></p></article>
+      <article><h4>Guaranteed delivery correction</h4><p>The notice of guaranteed delivery must reach the exchange agent by 12:00 midnight at the end of the expiration date. Medtronic's September 17 8-K corrected a typographical error: the shares, letter of transmittal or agent's message, and other documents must then arrive by 5:00 p.m. New York City time on the second NYSE trading day after the notice is executed, not by midnight as originally printed. For a notice executed on October 9, that deadline is 5:00 p.m. on Tuesday, October 13, because Monday, October 12 is an NYSE trading day.<sup><a href="#src-8k">8</a>,<a href="#src-nyse">9</a></sup></p></article>
       <article><h4>Final ratio announcement</h4><p>By 9:00 a.m. on October 8, with Medtronic aiming to announce on the evening of October 7. Indicative ratios are posted daily on the information agent's website from the third trading day of the offer.<sup><a href="#src-s4">2</a></sup></p></article>
-      <article><h4>Proration announcement</h4><p>The prospectus is inconsistent. Q&amp;A Item 20 says the preliminary proration factor comes by 9:00 a.m. on the business day after expiration; the Summary and "The Exchange Offer" section say the trading day. The S-4 defines a business day as excluding U.S. federal holidays. Monday, October 12, 2026 is a federal holiday (Columbus Day), and it is not an NYSE holiday, so the two readings point to October 12 and October 13.<sup><a href="#src-nyse">7</a>,<a href="#src-opm">8</a></sup> Confirm the date with the information agent. Medtronic also says it will disclose whether it is accepting the additional De Minimis Increase Amount together with the preliminary proration report.<sup><a href="#src-qa">1</a>,<a href="#src-s4">2</a></sup></p></article>
+      <article><h4>Proration announcement</h4><p>The prospectus is inconsistent. Q&amp;A Item 20 says the preliminary proration factor comes by 9:00 a.m. on the business day after expiration; the Summary and "The Exchange Offer" section say the trading day. The S-4 defines a business day as excluding U.S. federal holidays. Monday, October 12, 2026 is a federal holiday (Columbus Day), and it is not an NYSE holiday, so the two readings point to October 12 and October 13.<sup><a href="#src-nyse">9</a>,<a href="#src-opm">11</a></sup> Confirm the date with the information agent. Medtronic also says it will disclose whether it is accepting the additional De Minimis Increase Amount together with the preliminary proration report.<sup><a href="#src-qa">1</a>,<a href="#src-s4">2</a></sup></p></article>
       <article><h4>Odd lots and fractional shares</h4><p>Beneficial holders of fewer than 100 MDT shares who tender all of them are not prorated. No fractional MMED shares are issued; the exchange agent aggregates and sells them and distributes the net cash proceeds.<sup><a href="#src-s4">2</a></sup></p></article>
       <article><h4>Equity awards and ESPP</h4><p>Vested options must be exercised by 4:00 p.m. at least two trading days before expiration for the resulting shares to be eligible for tender. Stock options, RSUs, and PSUs that have not vested and settled at least two trading days before expiration cannot participate with the underlying shares. ESPP shares that have met the one-year holding period may be tendered under separate plan procedures, which may have earlier deadlines.<sup><a href="#src-s4">2</a></sup></p></article>
       <article><h4>Hart-Scott-Rodino</h4><p>If a tendering holder would acquire enough MMED to exceed the $133.9 million Hart-Scott-Rodino threshold and no exemption applies, Medtronic and the holder must make filings and the holder must pay the filing fee. This could delay that holder's exchange.<sup><a href="#src-s4">2</a></sup></p></article>
-      <article><h4>Key identifiers and agents</h4><p>Subject security: Medtronic ordinary shares, CUSIP G5960L103. Exchange agent: Equiniti Trust Company, LLC. Information agent: D.F. King &amp; Co., Inc. Dealer managers: Goldman Sachs &amp; Co. LLC and BofA Securities, Inc.<sup><a href="#src-s4">2</a>,<a href="#src-to">9</a></sup></p></article>
+      <article><h4>Key identifiers and agents</h4><p>Subject security: Medtronic ordinary shares, CUSIP G5960L103. Exchange agent: Equiniti Trust Company, LLC. Information agent: D.F. King &amp; Co., Inc. Dealer managers: Goldman Sachs &amp; Co. LLC and BofA Securities, Inc.<sup><a href="#src-s4">2</a>,<a href="#src-to">12</a></sup></p></article>
     </div>
     <div class="note">
       <div class="nt">Corporate Actions Note: Record Date Dividend</div>
@@ -538,13 +567,15 @@ footer p{max-width:78ch}
           <tr id="src-8kipo"><td>3. <a href="https://www.sec.gov/Archives/edgar/data/2062583/000162828026016018/exhibit991-8xk.htm" target="_blank" rel="noopener">8-K Exhibit 99.1: MiniMed Announces Closing of Initial Public Offering / MiniMed Group, Inc.</a></td><td>SEC EDGAR</td><td>March 9, 2026</td></tr>
           <tr id="src-ipo"><td>4. <a href="https://news.medtronic.com/2026-03-05-MiniMed-announces-pricing-of-initial-public-offering" target="_blank" rel="noopener">Press Release: MiniMed Announces Pricing of Initial Public Offering</a></td><td>Medtronic Newsroom</td><td>March 5, 2026</td></tr>
           <tr id="src-pr"><td>5. <a href="https://news.medtronic.com/2026-09-14-Medtronic-Launches-Exchange-Offer-to-Complete-Separation-of-MiniMed-Group,-Inc" target="_blank" rel="noopener">Press Release: Medtronic Launches Exchange Offer to Complete Separation of MiniMed Group, Inc.</a></td><td>Medtronic Newsroom</td><td>September 14, 2026</td></tr>
-          <tr id="src-8k"><td>6. <a href="https://www.sec.gov/Archives/edgar/data/0001613103/000162828026062505/mdt-20260917.htm" target="_blank" rel="noopener">8-K: Correction to Guaranteed Delivery Procedures / Medtronic plc</a></td><td>SEC EDGAR</td><td>September 17, 2026</td></tr>
-          <tr id="src-nyse"><td>7. <a href="https://www.nyse.com/markets/hours-calendars" target="_blank" rel="noopener">Holidays and Trading Hours / New York Stock Exchange</a></td><td>NYSE</td><td>2026</td></tr>
-          <tr id="src-opm"><td>8. <a href="https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=2026" target="_blank" rel="noopener">Federal Holidays, 2026 / U.S. Office of Personnel Management</a></td><td>OPM</td><td>2026</td></tr>
-          <tr id="src-to"><td>9. <a href="https://www.sec.gov/Archives/edgar/data/0001613103/000162828026061683/kangaroo-scheduleto.htm" target="_blank" rel="noopener">Schedule TO-I Issuer Tender Offer Statement / Medtronic plc</a></td><td>SEC EDGAR</td><td>September 14, 2026</td></tr>
+          <tr id="src-dfk"><td>6. <a href="https://www.dfking.com/MDTSeparation/main.asp" target="_blank" rel="noopener">Exchange Offer Information Site: daily VWAPs and indicative exchange ratios</a></td><td>D.F. King &amp; Co., Inc.</td><td>Updated October 1, 2026</td></tr>
+          <tr id="src-ftse"><td>7. <a href="https://research.ftserussell.com/products/index-notices/home/getnotice/?id=2621991" target="_blank" rel="noopener">Index Notice: Medtronic PLC (USA) Exchange Offer for MiniMed Group Inc</a></td><td>FTSE Russell</td><td>September 15, 2026</td></tr>
+          <tr id="src-8k"><td>8. <a href="https://www.sec.gov/Archives/edgar/data/0001613103/000162828026062505/mdt-20260917.htm" target="_blank" rel="noopener">8-K: Correction to Guaranteed Delivery Procedures / Medtronic plc</a></td><td>SEC EDGAR</td><td>September 17, 2026</td></tr>
+          <tr id="src-nyse"><td>9. <a href="https://www.nyse.com/markets/hours-calendars" target="_blank" rel="noopener">Holidays and Trading Hours / New York Stock Exchange</a></td><td>NYSE</td><td>2026</td></tr>
+          <tr id="src-fid"><td>10. <a href="https://www.sec.gov/Archives/edgar/data/0001613103/000162828026063578/a425-fidelitymessagetomdt4.htm" target="_blank" rel="noopener">Broker client notice filed under Rule 425 (response deadline of October 5, 2026)</a></td><td>SEC EDGAR</td><td>September 2026</td></tr>
+          <tr id="src-opm"><td>11. <a href="https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=2026" target="_blank" rel="noopener">Federal Holidays, 2026 / U.S. Office of Personnel Management</a></td><td>OPM</td><td>2026</td></tr>
+          <tr id="src-to"><td>12. <a href="https://www.sec.gov/Archives/edgar/data/0001613103/000162828026061683/kangaroo-scheduleto.htm" target="_blank" rel="noopener">Schedule TO-I Issuer Tender Offer Statement / Medtronic plc</a></td><td>SEC EDGAR</td><td>September 14, 2026</td></tr>
           <tr><td colspan="3" style="font-weight:700;color:var(--ink);padding-top:22px">Related documents (not cited in the text)</td></tr>
           <tr><td><a href="https://www.sec.gov/Archives/edgar/data/0001613103/000162828026062507/mdt-amendedscheduleissuert.htm" target="_blank" rel="noopener">Schedule TO-I Amendment No. 1 / Medtronic plc</a></td><td>SEC EDGAR</td><td>September 2026</td></tr>
-          <tr><td><a href="http://www.dfking.com/MDTSeparation" target="_blank" rel="noopener">Exchange Offer Information Site (indicative and final ratios)</a></td><td>D.F. King &amp; Co.</td><td>Ongoing</td></tr>
         </tbody>
       </table>
     </div>
@@ -576,8 +607,8 @@ footer p{max-width:78ch}
   var CAP = 4.5939, OFFERED = 225361295, DISC = 0.93;
 
   /* ---------- Chronology ---------- */
-  var S = {pr:"src-pr",s4:"src-s4",to:"src-to",qa:"src-qa",k8:"src-8k",k8ipo:"src-8kipo",ipo:"src-ipo",nyse:"src-nyse"};
-  var N = {"src-qa":1,"src-s4":2,"src-8kipo":3,"src-ipo":4,"src-pr":5,"src-8k":6,"src-nyse":7,"src-opm":8,"src-to":9};
+  var S = {pr:"src-pr",s4:"src-s4",to:"src-to",qa:"src-qa",k8:"src-8k",k8ipo:"src-8kipo",ipo:"src-ipo",nyse:"src-nyse",dfk:"src-dfk"};
+  var N = {"src-qa":1,"src-s4":2,"src-8kipo":3,"src-ipo":4,"src-pr":5,"src-dfk":6,"src-ftse":7,"src-8k":8,"src-nyse":9,"src-fid":10,"src-opm":11,"src-to":12};
   var ev = [
     {d:"2025-02-27",show:"February 27, 2025",t:"MiniMed Group, Inc. Incorporated",x:"MiniMed Group, Inc. is incorporated in Delaware.",s:S.s4},
     {d:"2025-05-31",show:"May 2025",t:"Separation Plan Announced",x:"Medtronic announces its plan to separate its Diabetes business within an 18-month time frame.",s:S.qa},
@@ -588,6 +619,7 @@ footer p{max-width:78ch}
     {d:"2026-09-11",show:"September 11, 2026",t:"Reference Prices Set",x:"MDT closes at $90.96 and MMED at $22.50. The 4.5939 upper limit reflects a 12% discount to MMED at these prices.",s:S.s4},
     {d:"2026-09-14",show:"September 14, 2026",t:"Exchange Offer Launched",x:"Medtronic commences the offer. MiniMed files its Form S-4 and Medtronic files its Schedule TO-I. The prospectus states the offer period will be at least 20 business days.",s:S.pr},
     {d:"2026-09-17",show:"September 17, 2026",t:"Guaranteed Delivery Correction",x:"Medtronic files an 8-K correcting the guaranteed delivery deadline to 5:00 p.m. New York City time on the second NYSE trading day after execution.",s:S.k8},
+    {d:"2026-09-22",show:"September 22, 2026",t:"Upper Limit Takes Effect",x:"The indicative exchange ratio reaches the 4.5939 upper limit for the first time and has stayed there since, as MiniMed has declined faster than Medtronic.",s:S.dfk},
     {d:"2026-09-25",show:"September 25, 2026",t:"Dividend Record Date",x:"Holders who validly tender still receive the $0.72 dividend on those shares.",s:S.s4},
     {d:"2026-10-05",show:"October 5 to 7, 2026",t:"Averaging Period",x:"Daily VWAPs of MDT on the NYSE and MMED on Nasdaq over these three trading days set the exchange ratio.",s:S.s4},
     {d:"2026-10-08",show:"October 8, 2026",t:"Final Exchange Ratio Announced",x:"By 9:00 a.m. New York City time, with Medtronic aiming to announce on the evening of October 7.",s:S.s4},
